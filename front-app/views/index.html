@@ -1,0 +1,648 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to LivePhuket</title>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Droid+Sans|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<link rel="stylesheet" href="js/jquery-ui.css">
+<script src="js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="css/msdropdown/dd.css" />
+<script src="js/msdropdown/jquery.dd.js"></script>
+
+<!-- </msdropdown> -->
+
+<link rel="stylesheet" type="text/css" href="css/msdropdown/skin2.css" />
+<link rel="stylesheet" type="text/css" href="css/msdropdown/flags.css" />
+
+<!--[if lt IE 9]>
+
+    <script type="text/javascript" src="js/html5.js"></script>
+
+<![endif]-->
+
+</head>
+
+<body>
+<div class="wrapper"> 
+  
+  <!-- Start : header -->
+  
+  <div class="header">
+    <div class="headerInn"> <a href="#" title="" class="logo"><img src="images/logo.png" alt=""></a>
+      <div class="serchForm">
+        <form action="" id="frmpanelnew" method="post">
+          <input type="text" value="Search destinations in Phulet" id="panelnewText">
+          <input type="button" value="" class="serchFormBtn btn-slidenew">
+        </form>
+      </div>
+      <ul id="menu" class="mainMenu">
+        <li><a href="#" title="For Rent">For Rent</a>
+          <div>
+            <ul>
+              <li><a href="#">Item 1</a>
+                <div class="subTwo">
+                  <ul>
+                    <li><a href="#">Item 2-1</a>
+                      <div class="subThree">
+                        <ul>
+                          <li><a href="#">Item 1</a></li>
+                          <li><a href="#">Item 2</a></li>
+                          <li><a href="#">Item 3</a></li>
+                          <li><a href="#">Item 4</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a href="#">Item 2-2</a></li>
+                    <li><a href="#">Item 2-3</a></li>
+                    <li><a href="#">Item 2-4</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+              <li><a href="#">Item 4</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#" title="For Sale">For Sale</a>
+          <div>
+            <ul>
+              <li><a href="#">Item 1</a>
+                <div class="subTwo">
+                  <ul>
+                    <li><a href="#">Item 2-1</a>
+                      <div class="subThree">
+                        <ul>
+                          <li><a href="#">Item 1</a></li>
+                          <li><a href="#">Item 2</a></li>
+                          <li><a href="#">Item 3</a></li>
+                          <li><a href="#">Item 4</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a href="#">Item 2-2</a></li>
+                    <li><a href="#">Item 2-3</a></li>
+                    <li><a href="#">Item 2-4</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+              <li><a href="#">Item 4</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#" title="Hotels">Hotels</a></li>
+        <li><a href="#" title="">Location Guides</a>
+          <div>
+            <ul>
+              <li><a href="#">Item 1</a>
+                <div class="subTwo">
+                  <ul>
+                    <li><a href="#">Item 2-1</a></li>
+                    <li><a href="#">Item 2-2</a></li>
+                    <li><a href="#">Item 2-3</a></li>
+                    <li><a href="#">Item 2-4</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+              <li><a href="#">Item 4</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <div class="gbLanguagePan">
+        <select style="width:114px" class="tech" name="tech" id="tech" class="pricemethod" onchange="showValue(this)">
+        <option value="AUD" data-image="images/flag/AU.png">$ AUD</option>
+        <option value="CNY" data-image="images/flag/CN.png">$ CNY</option>
+        <option value="EUR" data-image="images/flag/EU.png" name="cd">$ EUR</option>
+        <option value="GBP"  data-image="images/flag/GB.png">$ GBP</option>
+        <option value="RUB" data-image="images/flag/RU.png">P RUB</option>
+        <option value="THB" data-image="images/flag/TH.png">$ THB</option>
+        <option value="USD" data-image="images/flag/US.png">$ USD</option>
+        </select>
+      </div>
+      <ul id="menu" class="telNumPan">
+        <li><a href="#" title="">+66 (0) 92 474 6157</a>
+          <div>
+            <ul>
+              <li><a href="tel:08004334567">UK: 0800 4334567</a></li>
+              <li><a href="tel:1-866-341-8086">US: 1-866-341-8086</a></li>
+              <li><a href="tel:1-800-578-0021">CA: 1-800-578-0021</a></li>
+              <li><a href="tel:+33 97 51 80 200">FR: +33 97 51 80 200</a></li>
+              <li><a href="tel:55 11 3957 0973">Brasil: +55 11 3957 0973</a></li>
+              <li><a href="tel:+44 (0)1227 250053">Int: +44 (0)1227 250053</a></li>
+              <li><a href="tel:+44 (0)2035 197770"><span class="labelsmall">For calls in Portuguese, German:</span> +44 (0)2035 197770 </a></li>
+              <li class="contact-options"><a href="/contact-us/">More contact options <i class="icon-angle-right shift"></i></a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <div id="panelnew">
+        <div class="seachpanel">
+          <div class="searchButtonPan"> <a href="#" title="SEARCH ALL DESTINATIONS IN PHUKET">SEARCH ALL DESTINATIONS IN PHUKET</a> </div>
+          <div class="seachpanelBox">
+            <h4>Popular Now</h4>
+            <ul>
+              <li><a href="#">Patong</a></li>
+              <li><a href="#">Kata</a></li>
+              <li><a href="#">Surin</a></li>
+              <li><a href="#">Kamala</a></li>
+              <li><a href="#">Karon</a></li>
+              <li><a href="#">Bang Tao</a></li>
+            </ul>
+          </div>
+          <div class="seachpanelBox">
+            <h4>North Phuket</h4>
+            <ul>
+              <li><a href="#">Cherng Talay</a></li>
+              <li><a href="#">Layan</a></li>
+              <li><a href="#">Nai Thon</a></li>
+              <li><a href="#">Natai</a></li>
+              <li><a href="#">Bangtao</a></li>
+              <li><a href="#">Laguna</a></li>
+              <li><a href="#">Mai Yang</a></li>
+              <li><a href="#">Thalang</a></li>
+            </ul>
+          </div>
+          <div class="seachpanelBox">
+            <h4>West Phuket</h4>
+            <ul>
+              <li><a href="#">Kamala</a></li>
+              <li><a href="#">Kata</a></li>
+              <li><a href="#">Surin</a></li>
+              <li><a href="#">Kalim</a></li>
+              <li><a href="#">Karon</a></li>
+              <li><a href="#">Patong</a></li>
+            </ul>
+            <h4>South Phuket</h4>
+            <ul>
+              <li><a href="#">Chalong</a></li>
+              <li><a href="#">Rawai</a></li>
+              <li><a href="#">Cape Panwa</a></li>
+              <li><a href="#">Nai Harn</a></li>
+            </ul>
+          </div>
+          <div class="seachpanelBox">
+            <h4>Central Phuket</h4>
+            <ul>
+              <li><a href="#">Phuket Town</a></li>
+              <li><a href="#">Kathu</a></li>
+            </ul>
+            <h4>East Phuket</h4>
+            <ul>
+              <li><a href="#">Cape Yami</a></li>
+              <li><a href="#">Paklok</a></li>
+              <li><a href="#">Ao Por</a></li>
+              <li><a href="#">Koh Kaew</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- End : header --> 
+  
+  <!-- Start : Banner -->
+  
+  <div class="bannerPan">
+    <div class="topSearchPan">
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">For Rent<span></span></a></li>
+          <li><a href="#tabs-2">For Sale<span></span></a></li>
+          <li><a href="#tabs-3">Hotels<span></span></a></li>
+        </ul>
+        <div id="tabs-1">
+          <form action="#">
+            <div class="topSearchLeft">
+              <input type="text" value="Kamala" id="panelText">
+              <input type="button" value="" class="searchBtn btn-slide">
+            </div>
+            <input type="text" value="29 Mar 2014" class="calInput">
+            <input type="text" value="05 Apr 2014" class="calInput">
+            <input type="button" value="FIND AVAILABILITY" class="searchButton">
+          </form>
+          <div id="panel"> 
+            
+            <!--<img src="images/menu-img.png" alt="">-->
+            
+            <div class="seachpanel">
+              <div class="searchButtonPan"> <a href="#" title="SEARCH ALL DESTINATIONS IN PHUKET">SEARCH ALL DESTINATIONS IN PHUKET</a> </div>
+              <div class="seachpanelBox">
+                <h4>Popular Now</h4>
+                <ul>
+                  <li><a href="#">Patong</a></li>
+                  <li><a href="#">Kata</a></li>
+                  <li><a href="#">Surin</a></li>
+                  <li><a href="#">Kamala</a></li>
+                  <li><a href="#">Karon</a></li>
+                  <li><a href="#">Bang Tao</a></li>
+                </ul>
+              </div>
+              <div class="seachpanelBox">
+                <h4>North Phuket</h4>
+                <ul>
+                  <li><a href="#">Cherng Talay</a></li>
+                  <li><a href="#">Layan</a></li>
+                  <li><a href="#">Nai Thon</a></li>
+                  <li><a href="#">Natai</a></li>
+                  <li><a href="#">Bangtao</a></li>
+                  <li><a href="#">Laguna</a></li>
+                  <li><a href="#">Mai Yang</a></li>
+                  <li><a href="#">Thalang</a></li>
+                </ul>
+              </div>
+              <div class="seachpanelBox">
+                <h4>West Phuket</h4>
+                <ul>
+                  <li><a href="#">Kamala</a></li>
+                  <li><a href="#">Kata</a></li>
+                  <li><a href="#">Surin</a></li>
+                  <li><a href="#">Kalim</a></li>
+                  <li><a href="#">Karon</a></li>
+                  <li><a href="#">Patong</a></li>
+                </ul>
+                <h4>South Phuket</h4>
+                <ul>
+                  <li><a href="#">Chalong</a></li>
+                  <li><a href="#">Rawai</a></li>
+                  <li><a href="#">Cape Panwa</a></li>
+                  <li><a href="#">Nai Harn</a></li>
+                </ul>
+              </div>
+              <div class="seachpanelBox">
+                <h4>Central Phuket</h4>
+                <ul>
+                  <li><a href="#">Phuket Town</a></li>
+                  <li><a href="#">Kathu</a></li>
+                </ul>
+                <h4>East Phuket</h4>
+                <ul>
+                  <li><a href="#">Cape Yami</a></li>
+                  <li><a href="#">Paklok</a></li>
+                  <li><a href="#">Ao Por</a></li>
+                  <li><a href="#">Koh Kaew</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tabs-2">
+          <form action="#">
+            <div class="topSearchLeft">
+              <input type="text" value="Kamala">
+              <input type="button" value="" class="searchBtn">
+            </div>
+            <div class="calInput2">
+              <select>
+                <option>Max Price</option>
+              </select>
+            </div>
+            <div class="calInput2">
+              <select>
+                <option>Bedrooms</option>
+              </select>
+            </div>
+            <input type="button" value="Find Properties" class="searchButton">
+          </form>
+        </div>
+        <div id="tabs-3"> 
+          
+          <!--  <form action="#">
+
+                        	<div class="topSearchLeft">
+
+                            <input type="text" value="Kamala">
+
+                            <input type="button" value="" class="searchBtn">
+
+                            </div>
+
+                            <input type="text" value="29 Mar 2014" class="calInput">
+
+                            <div class="calInput2"><select><option>Night</option></select></div>
+
+                            <input type="button" value="Find Avaliability" class="searchButton">
+
+                        </form>-->
+          
+          <form action="#">
+              <div id="SearchBox"></div>
+              <script type="text/javascript" src="http://ajaxsearch.partners.agoda.com/partners/SearchBox/Scripts/Agoda.SearchBoxV2.js"></script> 
+              <script type="text/javascript">
+
+
+
+// <![CDATA[
+
+var AgodaSearch = new AgodaSearchBox({
+
+cid: 000000,
+
+filterCityName: 'Phuket',
+
+fixedCityName: true,
+
+fixedCityNameVisible:true,
+
+hotelID: '',
+
+checkInDateBefore:3,
+
+night:2,
+
+language:1,
+
+currencyCode: 'USD',
+
+newWindow: false,
+
+header: '',
+
+footer: '',
+
+style: 'style4',
+
+Element: 'SearchBox'
+
+});
+
+// ]]></script>
+              
+          </form>
+        </div>
+      </div>
+    </div>
+    <ul class="bxslider">
+      <li> <img src="images/kkmare.jpg" title="" />
+        <div class="bx-caption">
+          <div class="bx-captionInn">
+            <h3>Search and book over 2,500+ luxury villas online</h3>
+            <p>Live availability &amp; Instant quotes, Book safely and securely online with us.</p>
+          </div>
+        </div>
+      </li>
+      <li> <img src="images/marp1.jpg" title="" />
+        <div class="bx-caption">
+          <div class="bx-captionInn">
+            <h3>Search and book over 2,500+ luxury villas online</h3>
+            <p>Live availability &amp; Instant quotes, Book safely and securely online with us.</p>
+          </div>
+        </div>
+      </li>
+      <li> <img src="images/kkmare.jpg" title="" />
+        <div class="bx-caption">
+          <div class="bx-captionInn">
+            <h3>Search and book over 2,500+ luxury villas online</h3>
+            <p>Live availability &amp; Instant quotes, Book safely and securely online with us.</p>
+          </div>
+        </div>
+      </li>
+      <li> <img src="images/marp1.jpg" title="" />
+        <div class="bx-caption">
+          <div class="bx-captionInn">
+            <h3>Search and book over 2,500+ luxury villas online</h3>
+            <p>Live availability &amp; Instant quotes, Book safely and securely online with us.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- End : Banner --> 
+  
+  <!-- Start : body Content -->
+  
+  <div class="bodyContent">
+    <h2>Top Phuket Destinations</h2>
+    <div class="featuredPan">
+      <div class="box"> <a class="title" href="#"> <img alt="Orlando, Florida" src="images/rr3000-066.jpg"> <span class="ribbon">Orlando, Florida<span class="tagline">4299 rentals</span></span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Reunion Resort, Orlando" src="images/pool.jpg"> <span class="ribbon">Reunion Resort<span class="tagline">4299 rentals</span></span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Formosa Gardens, Orlando" src="images/-MG-0022.jpg"> <span class="ribbon">Formosa Gardens<span class="tagline">4299 rentals</span></span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Marco Island" src="images/marcoisland-32-frontview1.jpg"> <span class="ribbon">Marco Island</span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Championsgate, Orlando" src="images/Pool-2.jpg"> <span class="ribbon">Championsgate</span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Miami" src="images/miami-vacation-rental.jpg"> <span class="ribbon">Miami<span class="tagline">4299 rentals</span></span> </a> </div>
+      <br class="spacer">
+      <div class="featuredMid">
+        <p>"With <strong>over 20 destinations in Phuket</strong> and a <a href="#" title="">fine selection of villas &amp; apartments</a> to choose from, you’re bound to find the <strong>perfect place</strong> for you."</p>
+      </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Orlando, Florida" src="images/rr3000-066.jpg"> <span class="ribbon">Orlando, Florida<span class="tagline">4299 rentals</span></span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Reunion Resort, Orlando" src="images/pool.jpg"> <span class="ribbon">Reunion Resort<span class="tagline">4299 rentals</span></span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Formosa Gardens, Orlando" src="images/-MG-0022.jpg"> <span class="ribbon">Formosa Gardens<span class="tagline">4299 rentals</span></span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Marco Island" src="images/marcoisland-32-frontview1.jpg"> <span class="ribbon">Marco Island</span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Championsgate, Orlando" src="images/Pool-2.jpg"> <span class="ribbon">Championsgate</span> </a> </div>
+      <div class="box"> <a class="title" href="#"> <img alt="Miami" src="images/miami-vacation-rental.jpg"> <span class="ribbon">Miami<span class="tagline">Fine dining, exotic nightlife and rich culture</span></span> </a> </div>
+      <br class="spacer">
+    </div>
+  </div>
+  
+  <!-- End : body Content --> 
+  
+  <!-- Start : Footer -->
+  
+  <footer class="footer">
+    <div class="footerInn">
+      <div class="footerInnBox">
+        <h3>About Us</h3>
+        <ul>
+          <li><a title="Blog" href="#" target="_blank">Blog</a></li>
+          <li><a title="About LivePhuket" href="#">About LivePhuket</a></li>
+          <li><a title="Careers" href="#">Careers</a></li>
+          <li><a title="Contact Us" href="#">Contact Us</a></li>
+          <li><a title="FAQ" href="#">FAQ</a></li>
+          <li><a title="Terms And Conditions" href="#">Terms And Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footerInnBox">
+        <h3>Why LivePhuket?</h3>
+        <ul>
+          <li><a title="Why Work with Us?" href="#">Why Work with Us?</a></li>
+          <li><a title="How it works?" href="#">How it works?</a></li>
+          <li><a title="Agents and Affiliates" href="#">Agents and Affiliates</a></li>
+          <li><a title="LivePhuket Guarantee" href="#">LivePhuket Guarantee</a></li>
+          <li><a title="Cancellation Policy" href="#">Cancellation Policy</a></li>
+          <li><a title="Privacy Policy" href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footerInnBox">
+        <h3>Explore</h3>
+        <ul>
+          <li><a title="Find holiday rental in puket" href="#">Find holiday rental in Phuket</a></li>
+          <li><a title="Buy Property in Phuket" href="#">Buy Property in Phuket</a></li>
+          <li><a title="Browse location in Phuket" href="#">Browse location in Phuket</a></li>
+        </ul>
+      </div>
+      <div class="footerInnBox joinUs">
+        <h3>Join us on</h3>
+        <ul>
+          <li><a target="_blank" title="Find Us On Facebook" href="#"><img width="32" height="32" alt="Find Us On Facebook" src="http://www.livephuket.com/images/footer-icon-1.png"></a></li>
+          <li><a target="_blank" title="Find Us on Twiiter" href="#"><img width="32" height="32" alt="Find Us on Twiiter" src="http://www.livephuket.com/images/footer-icon-2.png"></a></li>
+          <li><a target="_blank" title="Find Us on Google +" href="#"><img width="32" height="32" alt="Find Us on Google +" src="http://www.livephuket.com/images/footer-icon-3.png"></a></li>
+          <li><a target="_blank" title="Find Us on LinkedIn" href="#"><img width="32" height="32" alt="Find Us on LinkedIn" src="http://www.livephuket.com/images/footer-icon-4.png"></a></li>
+        </ul>
+        <div class="bookOnline">
+          <p>Securely book at over 500+ <br>
+            verified properties</p>
+          <ul>
+            <li><img width="40" height="25" alt="" src="http://www.livephuket.com/images/card-1.png"></li>
+            <li><img width="40" height="25" alt="" src="http://www.livephuket.com/images/card-2.png"></li>
+            <li><img width="40" height="25" alt="" src="http://www.livephuket.com/images/card-3.png"></li>
+            <li><img width="40" height="25" alt="" src="http://www.livephuket.com/images/card-4.png"></li>
+          </ul>
+        </div>
+      </div>
+      <br class="spacer">
+      <p class="footBotText">&copy; 2014 Live phuket - All rights reserved - Use of this website constitutes acceptance of livephuket.com terms of use and privacy policy.</p>
+    </div>
+  </footer>
+  
+  <!-- End : Footer --> 
+  
+</div>
+<script type="text/javascript">
+
+	$('.bxslider').bxSlider({
+
+	  mode: 'fade',
+
+	  captions: true
+
+	});
+
+
+
+	$(function() {
+
+	$( "#tabs" ).tabs();
+
+	});
+
+	
+
+	$(document).ready(function(){
+
+
+
+	$(".btn-slide").click(function(){
+
+		$("#panel").slideToggle("slow");
+
+		$(this).toggleClass("active"); return false;
+
+	});
+
+	
+
+    
+
+	$("body").click(function(e){
+
+	    //if($(e.target).closest("#panel").length===0)
+
+	    if($(e.target).closest("#panel").length===0)
+
+	    {
+
+	      $("#panel").slideUp("slow");
+
+	      $(".btn-slide").removeClass("active");
+
+	    }
+
+	    if($(e.target).closest("#panelnew").length===0)
+
+	    {
+
+	      $("#panelnew").slideUp("slow");
+
+	      $(".btn-slidenew").removeClass("active");
+
+	    }
+
+	});
+
+	
+
+	$("#panel .seachpanelBox a").click(function(){
+
+	    $('#panelText').val($(this).html());
+
+	});
+
+	$("#panelnew .seachpanelBox a").click(function(){
+
+	    $('#panelnewText').val($(this).html());
+
+	     $('#frmpanelnew').submit();
+
+	});
+
+	
+
+});
+
+	
+
+	$(document).ready(function(){
+
+
+
+	$(".btn-slidenew").click(function(){
+
+		$("#panelnew").slideToggle("slow");
+
+		$(this).toggleClass("active"); return false;
+
+	});	 
+
+});
+
+
+
+$(function() {
+
+          if ($.browser.msie && $.browser.version.substr(0,1)<7)
+
+          {
+
+			$('li').has('div').mouseover(function(){
+
+				$(this).children('div').show();
+
+				}).mouseout(function(){
+
+				$(this).children('div').hide();
+
+				})
+
+          }
+
+        });  
+
+
+
+</script> 
+<script>
+
+$(document).ready(function(e) {		
+
+	$("#ver").html(msBeautify.version.msDropdown);	
+
+	$("select").msDropdown({roundedBorder:false});
+
+	$("#tech").data("dd");
+
+});
+
+</script>
+</body>
+</html>

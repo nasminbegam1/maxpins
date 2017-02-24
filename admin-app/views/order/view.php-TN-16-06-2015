@@ -1,0 +1,89 @@
+			<!-- BEGIN PAGE CONTENT INNER -->
+			<div class="portlet light">
+				<div class="portlet-body">
+					<div class="invoice">
+						<div class="row">
+							<div class="col-xs-6">
+								<strong>Invoice #: {{order_id}}</strong>
+							</div>
+							<div class="col-xs-6">
+								<a href="<?php echo ADMIN_URL.'order/print_invoice/{{hidden_order_id}}';?>" target="_blank" class="btn btn-success pull-right" role="button">Print Invoice</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-4">
+								<h3>Wholesaler Information:</h3>
+								<ul class="list-unstyled">
+									<li><strong>Wholesaler Name:</strong>{{wholesaler_name}}</li>
+									<li><strong>Wholesaler No#:</strong> {{wholesaler_customer_id}}</li>
+									<li><strong>Billing Address:</strong> {{billing_info}}</li>
+									<li><strong>Shipping Address:</strong> {{shipping_info}}</li>
+									<li></li>
+									<li><strong>Email:</strong> {{wholesaler_email}}</li>
+									<li><strong>Phone:</strong> {{wholesaler_phone}}</li>
+								</ul>
+							</div>
+							<div class="col-xs-4">
+								<h3>Payment Details:</h3>
+								<ul class="list-unstyled">
+									<li><strong>Payment Amout:</strong> ${{total_amount | number:2}}</li>
+									<li><strong>Transaction ID:</strong> {{transaction_id}}</li>
+									<li><strong>Payment Status:</strong> {{payment_status}}</li>
+								</ul>
+							</div>
+							<div class="col-xs-4 invoice-payment">
+								<h3>Shipping Details:</h3>
+								<ul class="list-unstyled">
+									<li><strong>Order Status:</strong>
+										<span class="{{(dd_view!=1)?'ng-show':'ng-hide'}}">{{shipping_status}} <a href="" data-ng-click="changeShippingStatus()">change?</a></span>
+										<span class="{{(dd_view==1)?'ng-show':'ng-hide'}}">
+											<input type="hidden" name="hidden_order_id" data-ng-model="hidden_order_id">
+									<select name="shipping" data-ng-model="shipping" class="form-control input-inline input-small"><option value="">Select...</option><option data-ng-repeat="ssv in shipping_status_values" value="{{ssv.name}}" data-ng-selected="{{ssv.name == shipping_status}}">{{ssv.name}}</option></select>&nbsp;<button type="submit" data-ng-click="updateShippingStatus()" class="btn green" title="Save"><i class="fa fa-check"></i></button><button type="button" class="btn red" data-ng-click="cancelShippingStatus()" title="Cancel"><i class="fa fa-times"></i></button>
+										</span>
+									</li>
+									<li><strong>Shipping Method:</strong> {{shipping_method}}</li>
+									<li><strong>Shipping Cost:</strong> ${{shipping_cost | number:2}}</li>
+								</ul>
+							</div>
+						</div>
+						<h3>Product Details:</h3>
+						<div class="row">
+							<div class="col-xs-12">
+								<table class="table table-striped table-hover">
+								<thead>
+								<tr>
+									<th>#</th>
+									<th>Product Name</th>
+									<th class="hidden-480">Product SKU</th>
+									<th class="hidden-480">Quantity</th>
+									<th class="hidden-480">Unit Cost</th>
+									<th>Total</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr data-ng-repeat="od in orderDetailsList">
+									<td>{{$index + 1}}</td>
+									<td>{{od.product_name}}</td>
+									<td class="hidden-480">{{od.product_sku}}</td>
+									<td class="hidden-480">{{od.product_quantity}}</td>
+									<td class="hidden-480">${{od.product_price | number:2}}</td>
+									<td>${{od.total_price}}</td>
+								</tr>
+								
+								</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-8"></div>
+							<div class="col-xs-4">
+							<div class="col-xs-6"><strong>Order Total</strong></div>
+							<div class="col-xs-6" style="padding-left:38px; " >$ {{total_amount | number:2}}</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			<!-- END PAGE CONTENT INNER -->

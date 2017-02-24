@@ -1,0 +1,68 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2015-07-14 00:00:28 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:28 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:28 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 00:00:28 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 416
+ERROR - 2015-07-14 00:00:28 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 675
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 416
+ERROR - 2015-07-14 00:00:29 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 675
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 416
+ERROR - 2015-07-14 00:00:29 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 416
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 675
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 675
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 416
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 675
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 416
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cookie - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 675
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Nsession.php 169
+ERROR - 2015-07-14 00:00:29 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 416
+ERROR - 2015-07-14 00:00:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /var/www/html/maxpins/front-app/config/constants.php:71) /var/www/html/maxpins/system/libraries/Session.php 675
+ERROR - 2015-07-14 00:00:50 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 01:26:42 --> Query error: Unknown column 'P.product_id' in 'field list'
+ERROR - 2015-07-14 01:54:26 --> Severity: Notice  --> Undefined variable: rootScope /var/www/html/maxpins/admin-app/controllers/products.php 8
+ERROR - 2015-07-14 01:54:26 --> Severity: Notice  --> Undefined variable: rootScope /var/www/html/maxpins/admin-app/controllers/products.php 8
+ERROR - 2015-07-14 01:54:27 --> Severity: Notice  --> Undefined variable: rootScope /var/www/html/maxpins/admin-app/controllers/products.php 8
+ERROR - 2015-07-14 01:54:27 --> Severity: Notice  --> Undefined variable: rootScope /var/www/html/maxpins/admin-app/controllers/products.php 8
+ERROR - 2015-07-14 03:35:18 --> Severity: Warning  --> Invalid argument supplied for foreach() /var/www/html/maxpins/admin-app/controllers/products.php 91
+ERROR - 2015-07-14 03:35:28 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 03:35:32 --> Severity: Warning  --> Invalid argument supplied for foreach() /var/www/html/maxpins/admin-app/controllers/products.php 91
+ERROR - 2015-07-14 03:54:42 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1' Order By P.product_name DESC' at line 1
+ERROR - 2015-07-14 03:54:55 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1' Order By P.product_name DESC' at line 1
+ERROR - 2015-07-14 03:54:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:54:59 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:02 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:06 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:08 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:10 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:13 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:16 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:19 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:21 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:23 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:55:25 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:56:36 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:56:47 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND P.product_type = '1'' at line 1
+ERROR - 2015-07-14 03:59:06 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 05:50:08 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 05:50:20 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 05:52:37 --> The session cookie data did not match what was expected. This could be a possible hacking attempt.
+ERROR - 2015-07-14 08:50:03 --> Severity: Notice  --> Undefined variable: product_type /var/www/html/maxpins/admin-app/controllers/products.php 63
+ERROR - 2015-07-14 08:50:38 --> Severity: Notice  --> Undefined variable: product_type /var/www/html/maxpins/admin-app/controllers/products.php 63

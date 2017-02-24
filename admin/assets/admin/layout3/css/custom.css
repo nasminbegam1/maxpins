@@ -1,0 +1,351 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+
+/* MAP STYLE */
+
+.span9special { width: 850px; display:block;margin:0 auto;}
+.map-point { line-height: 1em; position: absolute; color: #04121A; display: block; z-index: 1; font-size: 12px; padding: 0 0 0 16px; font-weight: 600;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);-webkit-1px 1px 1px rgba(0, 0, 0, 0.6);-moz-1px 1px 1px rgba(0, 0, 0, 0.6);-o-1px 1px 1px rgba(0, 0, 0, 0.6);-ms-1px 1px 1px rgba(0, 0, 0, 0.6);}
+
+.map-points a i.fa-map-marker{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+.map-points-heighlight  i.fa-map-marker{
+    color: #F4FC00 !important;
+    font-size: 24px !important;
+}
+.blink {
+      animation: blink 1s steps(5, start) infinite;
+      -webkit-animation: blink 1s steps(5, start) infinite;
+    }
+    @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+    @-webkit-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+#sydney, #cairns, #greatbarrierreef, #whitsundays, #fraserisland, #greatoceanroad, #queenstown, #nadi, #auckland, #brisbane, #christchurch, #wellington,#phillipisland,#canberra,#capeyork,#capetribulation,#tully,#magneticisland,#ayr,#emupark,#townof1770,#bundaberg,#spotx,#coffsharbour,#rainbowbeach { color: #f1f1f1; font-size: 12px; font-weight: 600; letter-spacing: .5px;text-shadow: -2px -1px 1px rgba(0, 0, 0, 0.6), 2px 1px 1px rgba(0, 0, 0, 0.4);-webkit-text-shadow: -2px -1px 1px rgba(0, 0, 0, 0.6), 2px 1px 1px rgba(0, 0, 0, 0.4);-moz-text-shadow: -2px -1px 1px rgba(0, 0, 0, 0.6), 2px 1px 1px rgba(0, 0, 0, 0.4);-o-text-shadow: -2px -1px 1px rgba(0, 0, 0, 0.6), 2px 1px 1px rgba(0, 0, 0, 0.4);-ms-text-shadow: -2px -1px 1px rgba(0, 0, 0, 0.6), 2px 1px 1px rgba(0, 0, 0, 0.4); }
+#peterpansadealaide { margin: 450px 0 0 381px }
+#peterpansairliebeach { margin: 204px 0 0 550px }
+#peterpansbrisbanecity { margin: 330px 0 0 616px }
+#peterpansbrisbanefortitudevalley { margin: 338px 0 0 616px }
+#peterpansbyronbay { margin: 359px 0 0 610px }
+#peterpanscairns { margin: 133px 0 0 502px }
+#peterpansdarwin { margin: 52px 0 0 260px }
+#peterpansperth { margin: 413px 0 0 44px }
+#peterpansmelbournecity { margin: 505px 0 0 480px }
+#peterpansmelbourneflindersst { margin: 515px 0 0 480px }
+#peterpansmelbournestkilda { margin: 525px 0 0 480px }
+#peterpansnoosa { margin: 317px 0 0 602px }
+#peterpansrainbowbeach { margin: 308px 0 0 606px }
+#peterpanssurfersparadise { margin: 348px 0 0 607px }
+#peterpanssydneybondibeach { margin: 440px 0 0 569px }
+#peterpanssydneybondijunction { margin: 450px 0 0 569px }
+#peterpanssydneycity { margin: 460px 0 0 569px }
+#peterpanssydneykingscross { margin: 470px 0 0 569px }
+#peterpansqueenstown { margin: 551px 0 0 595px }
+#peterpansauckland { margin: 321px 0 0 719px }
+#peterpanscallcentre { font-size: 24px; margin: 281px 0 0 201px; color: #eb3d3e; letter-spacing: -1px }
+#peterpanscallcentre .icon-parrot { display: inline-block; float: left; width: 24px; height: 24px }
+#peterpansperth i, #peterpansadelaide i, #peterpansdarwin i, #peterpansperth i, #peterpansbrisbanecity i, #peterpansbrisbanefortitudevalley i, #peterpansmelbournecity i, #peterpansmelbourneflindersst i, #peterpansmelbournestkilda i, #peterpanssydneybondibeach i, #peterpanssydneybondijunction i, #peterpanssydneycity i, #peterpanssydneykingscross i { display: none }
+.minner { display: inline-block }
+#seventeenseventy { margin: 185px 0 0 693px; padding: 0 22px 0 0; background-position: 32px 0 }
+.heading_bulge h3.ppsmaller { font-size: 20.5px; padding-bottom: 4px }
+#litchfieldnp { margin: 61px 0 0 251px }
+#katatjutatheolgas { margin: 246px 0 0 256px }
+#katatjutatheolgas i { float: right; padding: 0 0 0 5px; display: inline-block }
+#kingscanyon { margin: 232px 0 0 406px }
+#capeyork { margin: 24px 0 0 552px }
+#portdouglas { margin: 106px 0 0 520px }
+#portdouglas i { float: right; padding: 0 0 0 5px; display: inline-block }
+#greatbarrierreef { margin: 202px 0 0 694px }
+#tully { margin: 140px 0 0 605px }
+#townsville { margin: 162px 0 0 557px }
+#townsville i { float: right; padding: 0 0 0 5px; display: inline-block }
+#ayr { margin: 172px 0 0 636px }
+#airliebeach { margin: 184px 0 0 586px }
+#airliebeach i{float: right; padding: 0 0 0 5px; display: inline-block}
+#whitsundays { margin: 172px 0 0 670px}
+#townof1770 { margin: 258px 0 0 710px }
+#rockhampton { margin: 236px 0 0 614px }
+#rockhampton i{float: right; padding: 0 0 0 5px; display: inline-block}
+#bundaberg { margin: 270px 0 0 714px }
+#perth { margin: 360px 0 0 150px }
+#rottnestisland { margin: 371px 0 0 144px }
+#mainland { display: none }
+#fijiislands { display: none }
+#phillipisland { margin: 486px 0 0 606px}
+#coffsharbour { margin: 372px 0 0 690px }
+#bluemountains { margin: 382px 0 0 594px }
+#bluemountains i{float: right; padding: 0 0 0 5px; display: inline-block}
+#queensland, #newsouthwales, #victoria, #southisland, #northernterritory, #southaustralia, #northisland, #tasmania, #australiancaptialterritory, #westernaustralia { display: none }
+#portlincon { margin: 463px 0 0 354px }
+#cooberpedy { margin: 334px 0 0 450px }
+#canberra { margin: 411px 0 0 670px }
+#peterpansrotorua { margin: 359px 0 0 742px }
+#peterpansthailandkohphangan { margin: 40px 0 0 }
+#peterpanscairnsesplanade { margin: 144px 0 0 510px }
+#capereinga { margin: 257px 0 0 680px }
+#coromandel { margin: 310px 0 0 730px }
+#bayofislands { margin: 273px 0 0 698px }
+#waiheke { margin: 324px 0 0 746px }
+#raglan { margin: 342px 0 0 719px }
+#tongarironationalpark { margin: 396px 0 0 722px }
+#franzjosefglacier { margin: 495px 0 0 620px }
+#wanaka { margin: 531px 0 0 595px }
+#milfordsound { margin: 537px 0 0 503px }
+#milfordsound i { float: right; padding: 0 0 0 5px; display: inline-block }
+#doubtfulsound { margin: 564px 0 0 570px }
+#teanau { margin: 553px 0 0 577px }
+#coralcoast { margin: 157px 0 0 637px }
+#mamanucaislands { margin: 100px 0 0 603px }
+#nadi { margin: 125px 0 0 625px }
+#suva { margin: 148px 0 0 699px }
+#seventeenseventy { margin: 185px 0 0 693px; padding: 0 22px 0 0; background-position: 32px 0 }
+#peterpansadelaide { margin: 450px 0 0 377px }
+#adelaide { margin: 410px 0 0 495px }
+#alicesprings { margin: 220px 0 0 420px }
+#brisbane { margin: 322px 0 0 714px }
+#broome { margin: 124px 0 0 250px }
+#kimberley { margin: 112px 0 0 490px }
+#byronbay { margin: 346px 0 0 630px }
+#byronbay i { float: right; padding: 0 0 0 5px; display: inline-block }
+#nimbin { margin: 252px 0 0 729px }
+#yasawaislands { margin: 69px 0 0 614px }
+#beachcomberisland { margin: 84px 0 0 932px }
+#pacificharbour { margin: 125px 0 0 971px }
+#maloloisland { margin: 105px 0 0 835px }
+#waitomo { margin: 359px 0 0 672px }
+#waitomo i { float: right; margin-left: 5px }
+#cairns { margin: 116px 0 0 600px }
+#capetribulation { margin: 94px 0 0 596px }
+#devilsmarbles { margin: 148px 0 0 552px }
+#darwin { margin: 48px 0 0 370px }
+#magneticisland { margin: 156px 0 0 634px }
+#missionbeach { margin: 128px 0 0 520px }
+#missionbeach i{float: right; padding: 0 0 0 5px; display: inline-block}
+#emupark { margin: 225px 0 0 685px }
+#exmouth { margin: 190px 0 0 124px }
+#fraserisland { margin: 290px 0 0 725px }
+#geraldton { margin: 241px 0 0 353px }
+#goldcoast { margin: 334px 0 0 644px }
+#goldcoast i{float: right; padding: 0 0 0 5px; display: inline-block }
+#greatoceanroad { margin: 483px 0 0 432px }
+#greatoceanroad i { float: right; padding: 0 0 0 5px; display: inline-block }
+#herveybay { margin: 287px 0 0 646px }
+#herveybay i { float: right; padding: 0 0 0 5px; display: inline-block }
+#hobart { margin: 565px 0 0 623px }
+#kakadunp { margin: 62px 0 0 420px }
+#kangarooisland { margin: 439px 0 0 479px }
+#karijininp { margin: 193px 0 0 394px }
+#katherine { margin: 125px 0 0 544px }
+#launceston { margin: 546px 0 0 604px }
+#litchfieldnp { margin: 58px 0 0 290px }
+#litchfieldnp i { float: right; padding: 0 0 0 5px; display: inline-block }
+#melbourne { margin: 470px 0 0 558px }
+#monkeymia { margin: 264px 0 0 124px }
+#noosa { margin: 312px 0 0 670px }
+#noosa i { float: right; padding: 0 0 0 5px; display: inline-block }
+#porthedland { margin: 150px 0 0 395px }
+#portlincoln { margin: 421px 0 0 471px }
+#rainbowbeach { margin: 302px 0 0 714px }
+#abeltasmannp { margin: 427px 0 0 673px }
+#tongarironp { margin: 390px 0 0 720px }
+#sydney { margin: 398px 0 0 682px }
+#spotx { margin: 360px 0 0 698px }
+#airliebeachwhitsundays { margin: 157px 0 0 738px }
+#uluru { margin: 242px 0 0 404px}
+#auckland { margin: 321px 0 0 652px }
+#auckland i { float: right; padding: 0 0 0 5px; display: inline-block }
+#christchurch { margin: 502px 0 0 660px }
+#dunedin { margin: 364px 0 0 874px }
+#foxglacier { margin: 507px 0 0 610px }
+.hide{
+	display:none;
+}
+#myanmar, #laos, #thailand, #cambodia, #vietnam, #countries {
+    display: none;
+}
+
+.mapPanelSec{
+	background:#187aff;
+	padding-top:50px;
+	border-bottom:1px solid #fff;
+	border-top:1px solid #fff;
+}
+.mapPanelSec .titleSec .titleName,.mapPanelSec .titleSec .titleSubName{
+	color:#fff;
+}
+
+.chatUl{
+    list-style: none;
+    margin: 0px; padding: 0px;
+    /*background-color: #E5E5E5;*/
+    height: 300px;
+    overflow-y: scroll;
+}
+.chatUl li{
+    margin:0px 5px;
+    padding: 10px 12px;
+    clear: both;
+   /* border-bottom: 1px dotted #98999A;*/
+}
+.chatUl li.agent{
+    background-color: #E5E5E5;
+}
+.chatUl li.client{
+    background: #DADCDD;
+}
+.chatUl li.agent span.photo{
+    float: left;
+    margin: 0 6px 6px 0;
+}
+.chatUl li.agent span.photo span.dotmsg{
+    float: left;
+    margin: 0 6px 6px 0;
+}
+
+.chatUl li.client span.photo{
+    float: right;
+    margin: 0 6px 6px 0;
+}
+.chatUl li span.photo i{
+    
+    background: none repeat scroll 0 0 #aaafb7;
+    /*border: 1px solid #272C33*/;
+    border-radius: 50% !important;
+    color: #272C33;
+    font-size: 20px;
+    height: 35px;
+    padding: 10px 5px 5px;
+    vertical-align: middle;
+    width: 35px;
+}
+
+.chatUl li span.subject{
+    display: block;
+    margin-left: 46px;
+}
+.chatUl li span.subject span.from{
+    font-size: 14px;
+    font-weight: 600;
+    color: #498FD1;
+}
+.chatUl li span.subject span.time{
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.chatUl li span.message {
+    display: block !important;
+    font-size: 12px;
+    line-height: 1.3;
+   /* color: #aaafb7;*/
+    margin-left: 46px;
+}
+
+.chatUl li.agent span.subject, .chatUl li.agent span.message{
+    margin-left: 46px;
+    text-align: left;
+}
+.chatUl li.client span.subject, .chatUl li.client span.message{
+    margin-right: 46px;
+    text-align: right;
+}
+
+
+.chatUl .chatTime{
+    text-align: right;
+}
+
+/************ Video Intraction Style ****************/
+
+#subscriber{
+    height: 240px;
+}
+/*.OT_widget-container{
+    display: none;
+}*/
+.intraction-contener{
+    position: relative;
+}
+
+.intraction-loader{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+}
+.intraction-loader img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -22.5px 0 0 -22.5px;
+}
+.intraction-controll{
+    text-align: center;
+}
+.video-stream{
+    position: absolute;
+    left: 45%;
+    font-size: 32px;
+    cursor: pointer;
+    bottom:10px;
+    z-index: 20;    
+}
+.video-stream.enable{
+    color: #1F7EFE;  
+}
+.video-stream.disable{
+    color: #FF0000;
+}
+.deny{   
+    position: absolute;   
+    left: 55%;
+    cursor: pointer;
+     color: #FF0000;
+    font-size: 32px;
+    bottom:10px;
+    z-index: 20;
+}
+
+.receive,.calling{
+    width: 48px;
+    height: 48px;
+    background: url(../img/ic_launcher_phone.png) no-repeat 0 0;
+    display: inline-block;
+    cursor: pointer;
+}
+.receive strong,#publisher{ /* */
+    display: none;
+}

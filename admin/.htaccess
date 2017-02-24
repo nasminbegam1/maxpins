@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /traveldotz/admin/
+
+RewriteCond $1 !^(index\.php|images|css|js|fonts|vendors|SpryAssets|flash|uploadify|html|upload|assets|phpmyadmin)
+RewriteRule ^(.*)$ /maxpins/admin/index.php?/$1 [L]

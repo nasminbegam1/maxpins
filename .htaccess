@@ -1,0 +1,15 @@
+#<IfModule mod_php5.c>
+#php_value memory_limit 64M
+#</IfModule>
+#
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond $1 !^(index\.php|img|images|css|js|fonts|upload|html)
+#RewriteRule ^(.*)$ /traveldotz/index.php?/$1 [L]
+#RewriteRule ^(.*)/$ /$1 [R,L]
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond $1 !^(index\.php|img|images|css|js|fonts|upload|HTML|DOC)
+RewriteRule ^(.*)$ /maxpins/index.php?/$1 [L]

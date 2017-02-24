@@ -1,0 +1,15 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-07-29 06:28:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:28:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:31:14 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:31:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:32:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93
+ERROR - 2016-07-29 06:33:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/html/maxpins/system/database/drivers/mysql/mysql_driver.php 93

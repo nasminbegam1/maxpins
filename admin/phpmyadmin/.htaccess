@@ -1,0 +1,4 @@
+AuthName "This is a protected area"
+AuthType Basic
+AuthUserFile /var/www/html/maxpins/admin/.htpasswd
+require valid-user 
